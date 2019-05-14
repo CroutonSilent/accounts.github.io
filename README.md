@@ -1,1 +1,1 @@
-Website for accounts.github.io
+Website for https://croutonsilent.github.io/generator/
