@@ -5,7 +5,7 @@ function stringifyQueryString(params) {
 }
 
 function report_email(email) {
-    grecaptcha.execute('6LckLKQUAAAAAIM_8mOiSrpMMFihhBJwKdL2F8Ox', {
+    grecaptcha.execute('6LckLKQUAAAAABxuu7CBt7l_r_YzzOUphxmq9MlH', {
         action: 'vote_email'
     }).then(function (token) {
         $.ajax({
@@ -65,7 +65,7 @@ function registerevents() {
                         });
                         break;
                     case 1:
-                        grecaptcha.execute('6LckLKQUAAAAAIM_8mOiSrpMMFihhBJwKdL2F8Ox', {
+                        grecaptcha.execute('6LckLKQUAAAAABxuu7CBt7l_r_YzzOUphxmq9MlH', {
                             action: 'vote_email'
                         }).then(function (token) {
                             $.ajax({
